@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './components/Header';
+import SearchBar from './components/SearchBar';
 
 class App extends Component {
   render() {
@@ -12,10 +13,7 @@ class App extends Component {
 
           <div className="hero" data-bg-image="images/banner.png">
             <div className="container">
-              <form action="#" className="find-location">
-                <input type="text" placeholder="Find your location..." />
-                <input type="submit" value="Find" />
-              </form>
+              <SearchBar />
             </div>
           </div>
           <div className="forecast-table">
