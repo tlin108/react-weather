@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -241,7 +242,10 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
-  background: #1e202b; }
+  background: #1e202b;
+  position: absolute;
+  height: 100%;
+  width: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;

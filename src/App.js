@@ -11,8 +11,8 @@ class App extends Component {
               <a href="index.html" className="branding">
                 <img src="images/logo.png" alt="" className="logo" />
                 <div className="logo-type">
-                  <h1 className="site-title">Company name</h1>
-                  <small className="site-description">tagline goes here</small>
+                  <h1 className="site-title">SkyCast</h1>
+                  <small className="site-description">Weather at your finger tip</small>
                 </div>
               </a>
             </div>
