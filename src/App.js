@@ -95,30 +95,6 @@ class App extends Component {
                     <small>18<sup>o</sup></small>
                   </div>
                 </div>
-                <div className="forecast">
-                  <div className="forecast-header">
-                    <div className="day">Saturday</div>
-                  </div> 
-                  <div className="forecast-content">
-                    <div className="forecast-icon">
-                      <img src="images/icons/icon-13.svg" alt=""/>
-                    </div>
-                    <div className="degree">23<sup>o</sup>C</div>
-                    <small>18<sup>o</sup></small>
-                  </div>
-                </div>
-                <div className="forecast">
-                  <div className="forecast-header">
-                    <div className="day">Sunday</div>
-                  </div> 
-                  <div className="forecast-content">
-                    <div className="forecast-icon">
-                      <img src="images/icons/icon-14.svg" alt=""/>
-                    </div>
-                    <div className="degree">23<sup>o</sup>C</div>
-                    <small>18<sup>o</sup></small>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
