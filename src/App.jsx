@@ -1,22 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Header from './components/Header';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="site-content">
-          <div className="site-header">
-            <div className="container">
-              <a href="index.html" className="branding">
-                <img src="images/logo.png" alt="" className="logo" />
-                <div className="logo-type">
-                  <h1 className="site-title">SkyCast</h1>
-                  <small className="site-description">Weather at your finger tip</small>
-                </div>
-              </a>
-            </div>
-          </div>
+          <Header />
 
           <div className="hero" data-bg-image="images/banner.png">
             <div className="container">
