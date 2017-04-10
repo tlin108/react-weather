@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ForecastTable.css'
+import moment from 'moment';
 
 class ForecastTable extends Component {
   constructor(props) {
@@ -8,10 +9,11 @@ class ForecastTable extends Component {
   }
 
   renderWeather(weather) {
+    const day = moment.unix(weather.dt).format('dddd');
     return(
       <div className="forecast" key={weather.dt}>
         <div className="forecast-header">
-          <div className="day">{weather.dt}</div>
+          <div className="day">{day}</div>
         </div>
         <div className="forecast-content">
           <div className="forecast-icon">
@@ -25,12 +27,13 @@ class ForecastTable extends Component {
   }
 
   renderTodayWeather(todayWeather) {
-    console.log(todayWeather);
+    const todayDay = moment.unix(todayWeather.dt).format('dddd');
+    const todayDate = moment.unix(todayWeather.dt).format('MMM Do');
     return (
       <div className="today forecast" key={todayWeather.dt}>
         <div className="forecast-header">
-          <div className="day">Monday</div>
-          <div className="date">{todayWeather.dt}</div>
+          <div className="day">{todayDay}</div>
+          <div className="date">{todayDate}</div>
         </div>
         <div className="forecast-content">
           <div className="location">New York</div>
