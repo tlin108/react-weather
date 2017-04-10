@@ -6,6 +6,21 @@ import SearchBar from './components/SearchBar';
 import ForcastTable from './components/ForcastTable';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      weatherList: []
+    };
+  }
+
+  componentDidMount() {
+    fetch('http://api.openweathermap.org/data/2.5/forecast/daily?q=NewYork&units=imperial&cnt=5&appid=f0f1687e32559d0a80157ee1cba91a66')
+    .then(res => res.json())
+    .then(data => this.setState({ weatherList: data.list }))
+    .catch(err => console.log(err));
+  }
+
   render() {
     return (
       <div className="App">
@@ -18,7 +33,7 @@ class App extends Component {
             </div>
           </div>
 
-          <ForcastTable />
+          <ForcastTable weatherList={this.state.weatherList}/>
         </div>
       </div>
     );
