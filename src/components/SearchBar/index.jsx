@@ -5,13 +5,26 @@ class SearchBar extends Component {
   constructor(props) {
     super(props);
     
+    this.state = {
+      cityName: ''
+    }
+  }
+
+  onCityNameChange(cityName) {
+    this.setState({ cityName });
+  }
+
+  onFormSubmit(e) {
+    e.preventDefault();
+    const { cityName } = this.state;
+    this.props.onSearchSubmit(cityName);
   }
 
   render() {
     return (
-      <form action="#" className="search-location">
-        <input type="text" placeholder="Search by..." />
-        <input type="submit" value="Search" />
+      <form onSubmit={e => this.onFormSubmit(e)} className="search-location">
+        <input type="text" placeholder="Search by..." onChange={(e) => this.onCityNameChange(e.target.value)} />
+        <button type="submit" value="Search">Submit</button>
       </form>
     );
   }

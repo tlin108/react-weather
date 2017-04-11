@@ -3,11 +3,6 @@ import './ForecastTable.css'
 import moment from 'moment';
 
 class ForecastTable extends Component {
-  constructor(props) {
-    super(props);
-    
-  }
-
   renderWeather(weather) {
     const day = moment.unix(weather.dt).format('dddd');
     return(
@@ -36,7 +31,7 @@ class ForecastTable extends Component {
           <div className="date">{todayDate}</div>
         </div>
         <div className="forecast-content">
-          <div className="location">New York</div>
+          <div className="location">{this.props.city}</div>
           <div className="degree">
             <div className="num">{Math.round(todayWeather.temp.max)}<sup>o</sup> F</div>
             <div className="forecast-icon">

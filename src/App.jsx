@@ -10,15 +10,21 @@ class App extends Component {
     super(props);
     
     this.state = {
-      weatherList: []
+      weatherList: [],
+      searchCity: 'New York'
     };
+    this.onSearchCityChange = this.onSearchCityChange.bind(this);
   }
 
   componentDidMount() {
-    fetch('http://api.openweathermap.org/data/2.5/forecast/daily?q=NewYork&units=imperial&cnt=5&appid=f0f1687e32559d0a80157ee1cba91a66')
+    fetch(`http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=f0f1687e32559d0a80157ee1cba91a66`)
     .then(res => res.json())
     .then(data => this.setState({ weatherList: data.list }))
     .catch(err => console.log(err));
+  }
+
+  onSearchCityChange(searchCity) {
+    this.setState({ searchCity });
   }
 
   render() {
@@ -29,11 +35,14 @@ class App extends Component {
 
           <div className="hero" data-bg-image="images/banner.png">
             <div className="container">
-              <SearchBar />
+              <SearchBar onSearchSubmit={this.onSearchCityChange}/>
             </div>
           </div>
 
-          <ForcastTable weatherList={this.state.weatherList}/>
+          <ForcastTable 
+            weatherList={this.state.weatherList}
+            city={this.state.searchCity}
+          />
         </div>
       </div>
     );
