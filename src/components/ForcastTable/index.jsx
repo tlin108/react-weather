@@ -17,7 +17,7 @@ class ForecastTable extends Component {
         </div>
         <div className="forecast-content">
           <div className="forecast-icon">
-            <img src="images/icons/icon-3.svg" alt=""/>
+            <img src={`images/icons/${weather.weather[0].icon}.svg`} alt=""/>
           </div>
           <div className="degree">{Math.round(weather.temp.max)}<sup>o</sup> F</div>
           <small>{Math.round(weather.temp.min)}<sup>o</sup></small>
@@ -40,7 +40,7 @@ class ForecastTable extends Component {
           <div className="degree">
             <div className="num">{Math.round(todayWeather.temp.max)}<sup>o</sup> F</div>
             <div className="forecast-icon">
-              <img src="images/icons/icon-1.svg" alt="" />
+              <img src={`images/icons/${todayWeather.weather[0].icon}.svg`} alt="" />
             </div>
           </div>
           <span> Min: {Math.round(todayWeather.temp.min)}<sup>o</sup> F</span>
