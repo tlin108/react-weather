@@ -21,11 +21,13 @@ class App extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    this.fetchWeathers();
+    if (prevState.searchCity !== this.state.searchCity){
+      this.fetchWeathers();
+    }
   }
 
   fetchWeathers() {
-    fetch(`http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=f0f1687e32559d0a80157ee1cba91a66`)
+    fetch(`http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=d22aa35f1d715ba35838639d67d4cff8`)
     .then(res => res.json())
     .then(data => this.setState({ weatherList: data.list }))
     .catch(err => console.log(err));
