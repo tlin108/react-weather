@@ -17,6 +17,14 @@ class App extends Component {
   }
 
   componentDidMount() {
+    this.fetchWeathers();
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    this.fetchWeathers();
+  }
+
+  fetchWeathers() {
     fetch(`http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=f0f1687e32559d0a80157ee1cba91a66`)
     .then(res => res.json())
     .then(data => this.setState({ weatherList: data.list }))
