@@ -29,7 +29,9 @@ class App extends Component {
   fetchWeathers() {
     fetch(`http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=d22aa35f1d715ba35838639d67d4cff8`)
     .then(res => res.json())
-    .then(data => this.setState({ weatherList: data.list }))
+    .then(data => {
+      this.setState({ weatherList: data.list })
+    })
     .catch(err => console.log(err));
   }
 
@@ -45,7 +47,7 @@ class App extends Component {
 
           <div className="hero" data-bg-image="images/banner.png">
             <div className="container">
-              <SearchBar onSearchSubmit={this.onSearchCityChange}/>
+              <SearchBar onSearchSubmit={this.onSearchCityChange} />
             </div>
           </div>
 
