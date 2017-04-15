@@ -3,6 +3,7 @@ import { mount, shallow } from 'enzyme';
 import SearchBar from './index';
 
 describe('SearchBar test suite', () => {
+  const value = 'Boston';
   const onButtonSubmit = jest.fn();
   const wrapper = shallow(
     <SearchBar onSearchSubmit={onButtonSubmit} />
@@ -12,20 +13,22 @@ describe('SearchBar test suite', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('simulates submit event', () => {
-    const wrapperMount = mount(
-      <SearchBar onSearchSubmit={onButtonSubmit} />
-    );
-    wrapperMount.find('[type="submit"]').get(0).click();
-    expect(onButtonSubmit).toHaveBeenCalled();
-  });
-
   it('simulates onchange event', () => {
-    const value = 'Boston';
     expect(wrapper.instance().state.cityName).toEqual('');
     wrapper.find('input').simulate('change', {
       target: { value }
     });
     expect(wrapper.instance().state.cityName).toEqual('Boston');
+  });
+
+  it('simulates submit event', () => {
+    const wrapperMount = mount(
+      <SearchBar onSearchSubmit={onButtonSubmit} />
+    );
+    wrapperMount.find('input').simulate('change', {
+      target: { value }
+    });
+    wrapperMount.find('[type="submit"]').get(0).click();
+    expect(onButtonSubmit).toHaveBeenCalled();
   });
 });

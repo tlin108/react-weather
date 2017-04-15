@@ -17,6 +17,9 @@ class SearchBar extends Component {
   onFormSubmit(e) {
     e.preventDefault();
     const { cityName } = this.state;
+    if (cityName === ''){
+      return;
+    }
     this.props.onSearchSubmit(cityName);
   }
 
