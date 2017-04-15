@@ -1,0 +1,1055 @@
+exports[`ForecastTable test suite renders without crashing 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="forecast-table">
+    <div
+        className="container">
+        <div
+            className="forecast-container">
+            <div
+                className="today forecast">
+                <div
+                    className="forecast-header">
+                    <div
+                        className="day">
+                        Friday
+                    </div>
+                    <div
+                        className="date">
+                        Apr 14th
+                    </div>
+                </div>
+                <div
+                    className="forecast-content">
+                    <div
+                        className="location">
+                        New York
+                    </div>
+                    <div
+                        className="degree">
+                        <div
+                            className="num">
+                            50
+                            <sup>
+                                o
+                            </sup>
+                             F
+                        </div>
+                        <div
+                            className="forecast-icon">
+                            <img
+                                alt=""
+                                src="images/icons/01d.svg" />
+                        </div>
+                    </div>
+                    <span>
+                         Min: 
+                        50
+                        <sup>
+                            o
+                        </sup>
+                         F
+                    </span>
+                    <span>
+                         Humidity: 
+                        69
+                         %
+                    </span>
+                    <span>
+                        <img
+                            alt=""
+                            src="images/icon-wind.png" />
+                        1.97
+                         km/h
+                    </span>
+                </div>
+            </div>
+            <div
+                className="forecast">
+                <div
+                    className="forecast-header">
+                    <div
+                        className="day">
+                        Friday
+                    </div>
+                </div>
+                <div
+                    className="forecast-content">
+                    <div
+                        className="forecast-icon">
+                        <img
+                            alt=""
+                            src="images/icons/01d.svg" />
+                    </div>
+                    <div
+                        className="degree">
+                        50
+                        <sup>
+                            o
+                        </sup>
+                         F
+                    </div>
+                    <small>
+                        50
+                        <sup>
+                            o
+                        </sup>
+                    </small>
+                </div>
+            </div>
+            <div
+                className="forecast">
+                <div
+                    className="forecast-header">
+                    <div
+                        className="day">
+                        Friday
+                    </div>
+                </div>
+                <div
+                    className="forecast-content">
+                    <div
+                        className="forecast-icon">
+                        <img
+                            alt=""
+                            src="images/icons/01d.svg" />
+                    </div>
+                    <div
+                        className="degree">
+                        50
+                        <sup>
+                            o
+                        </sup>
+                         F
+                    </div>
+                    <small>
+                        50
+                        <sup>
+                            o
+                        </sup>
+                    </small>
+                </div>
+            </div>
+            <div
+                className="forecast">
+                <div
+                    className="forecast-header">
+                    <div
+                        className="day">
+                        Friday
+                    </div>
+                </div>
+                <div
+                    className="forecast-content">
+                    <div
+                        className="forecast-icon">
+                        <img
+                            alt=""
+                            src="images/icons/01d.svg" />
+                    </div>
+                    <div
+                        className="degree">
+                        50
+                        <sup>
+                            o
+                        </sup>
+                         F
+                    </div>
+                    <small>
+                        50
+                        <sup>
+                            o
+                        </sup>
+                    </small>
+                </div>
+            </div>
+            <div
+                className="forecast">
+                <div
+                    className="forecast-header">
+                    <div
+                        className="day">
+                        Friday
+                    </div>
+                </div>
+                <div
+                    className="forecast-content">
+                    <div
+                        className="forecast-icon">
+                        <img
+                            alt=""
+                            src="images/icons/01d.svg" />
+                    </div>
+                    <div
+                        className="degree">
+                        50
+                        <sup>
+                            o
+                        </sup>
+                         F
+                    </div>
+                    <small>
+                        50
+                        <sup>
+                            o
+                        </sup>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="forecast-table">
+      <div
+            className="container">
+            <div
+                  className="forecast-container">
+                  <div
+                        className="today forecast">
+                        <div
+                              className="forecast-header">
+                              <div
+                                    className="day">
+                                    Friday
+                              </div>
+                              <div
+                                    className="date">
+                                    Apr 14th
+                              </div>
+                        </div>
+                        <div
+                              className="forecast-content">
+                              <div
+                                    className="location">
+                                    New York
+                              </div>
+                              <div
+                                    className="degree">
+                                    <div
+                                          className="num">
+                                          50
+                                          <sup>
+                                                o
+                                          </sup>
+                                           F
+                                    </div>
+                                    <div
+                                          className="forecast-icon">
+                                          <img
+                                                alt=""
+                                                src="images/icons/01d.svg" />
+                                    </div>
+                              </div>
+                              <span>
+                                     Min: 
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                                     F
+                              </span>
+                              <span>
+                                     Humidity: 
+                                    69
+                                     %
+                              </span>
+                              <span>
+                                    <img
+                                          alt=""
+                                          src="images/icon-wind.png" />
+                                    1.97
+                                     km/h
+                              </span>
+                        </div>
+                  </div>
+                  <div
+                        className="forecast">
+                        <div
+                              className="forecast-header">
+                              <div
+                                    className="day">
+                                    Friday
+                              </div>
+                        </div>
+                        <div
+                              className="forecast-content">
+                              <div
+                                    className="forecast-icon">
+                                    <img
+                                          alt=""
+                                          src="images/icons/01d.svg" />
+                              </div>
+                              <div
+                                    className="degree">
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                                     F
+                              </div>
+                              <small>
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                              </small>
+                        </div>
+                  </div>
+                  <div
+                        className="forecast">
+                        <div
+                              className="forecast-header">
+                              <div
+                                    className="day">
+                                    Friday
+                              </div>
+                        </div>
+                        <div
+                              className="forecast-content">
+                              <div
+                                    className="forecast-icon">
+                                    <img
+                                          alt=""
+                                          src="images/icons/01d.svg" />
+                              </div>
+                              <div
+                                    className="degree">
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                                     F
+                              </div>
+                              <small>
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                              </small>
+                        </div>
+                  </div>
+                  <div
+                        className="forecast">
+                        <div
+                              className="forecast-header">
+                              <div
+                                    className="day">
+                                    Friday
+                              </div>
+                        </div>
+                        <div
+                              className="forecast-content">
+                              <div
+                                    className="forecast-icon">
+                                    <img
+                                          alt=""
+                                          src="images/icons/01d.svg" />
+                              </div>
+                              <div
+                                    className="degree">
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                                     F
+                              </div>
+                              <small>
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                              </small>
+                        </div>
+                  </div>
+                  <div
+                        className="forecast">
+                        <div
+                              className="forecast-header">
+                              <div
+                                    className="day">
+                                    Friday
+                              </div>
+                        </div>
+                        <div
+                              className="forecast-content">
+                              <div
+                                    className="forecast-icon">
+                                    <img
+                                          alt=""
+                                          src="images/icons/01d.svg" />
+                              </div>
+                              <div
+                                    className="degree">
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                                     F
+                              </div>
+                              <small>
+                                    50
+                                    <sup>
+                                          o
+                                    </sup>
+                              </small>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ForecastTable
+        city="New York"
+        weatherList={
+                Array [
+                        Object {
+                          "dt": 1492185600,
+                          "humidity": 69,
+                          "speed": 1.97,
+                          "temp": Object {
+                            "max": 49.77,
+                            "min": 49.77,
+                          },
+                          "weather": Array [
+                            Object {
+                              "icon": "01d",
+                            },
+                          ],
+                        },
+                        Object {
+                          "dt": 1492185600,
+                          "temp": Object {
+                            "max": 49.77,
+                            "min": 49.77,
+                          },
+                          "weather": Array [
+                            Object {
+                              "icon": "01d",
+                            },
+                          ],
+                        },
+                        Object {
+                          "dt": 1492185600,
+                          "temp": Object {
+                            "max": 49.77,
+                            "min": 49.77,
+                          },
+                          "weather": Array [
+                            Object {
+                              "icon": "01d",
+                            },
+                          ],
+                        },
+                        Object {
+                          "dt": 1492185600,
+                          "temp": Object {
+                            "max": 49.77,
+                            "min": 49.77,
+                          },
+                          "weather": Array [
+                            Object {
+                              "icon": "01d",
+                            },
+                          ],
+                        },
+                        Object {
+                          "dt": 1492185600,
+                          "temp": Object {
+                            "max": 49.77,
+                            "min": 49.77,
+                          },
+                          "weather": Array [
+                            Object {
+                              "icon": "01d",
+                            },
+                          ],
+                        },
+                      ]
+        } />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ForecastTable {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "city": "New York",
+          "weatherList": Array [
+            Object {
+              "dt": 1492185600,
+              "humidity": 69,
+              "speed": 1.97,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="forecast-table">
+          <div
+                    className="container">
+                    <div
+                              className="forecast-container">
+                              <div
+                                        className="today forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                                  <div
+                                                            className="date">
+                                                            Apr 14th
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="location">
+                                                            New York
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            <div
+                                                                      className="num">
+                                                                      50
+                                                                      <sup>
+                                                                                o
+                                                                      </sup>
+                                                                       F
+                                                            </div>
+                                                            <div
+                                                                      className="forecast-icon">
+                                                                      <img
+                                                                                alt=""
+                                                                                src="images/icons/01d.svg" />
+                                                            </div>
+                                                  </div>
+                                                  <span>
+                                                             Min: 
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </span>
+                                                  <span>
+                                                             Humidity: 
+                                                            69
+                                                             %
+                                                  </span>
+                                                  <span>
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icon-wind.png" />
+                                                            1.97
+                                                             km/h
+                                                  </span>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="forecast-table">
+          <div
+                    className="container">
+                    <div
+                              className="forecast-container">
+                              <div
+                                        className="today forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                                  <div
+                                                            className="date">
+                                                            Apr 14th
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="location">
+                                                            New York
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            <div
+                                                                      className="num">
+                                                                      50
+                                                                      <sup>
+                                                                                o
+                                                                      </sup>
+                                                                       F
+                                                            </div>
+                                                            <div
+                                                                      className="forecast-icon">
+                                                                      <img
+                                                                                alt=""
+                                                                                src="images/icons/01d.svg" />
+                                                            </div>
+                                                  </div>
+                                                  <span>
+                                                             Min: 
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </span>
+                                                  <span>
+                                                             Humidity: 
+                                                            69
+                                                             %
+                                                  </span>
+                                                  <span>
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icon-wind.png" />
+                                                            1.97
+                                                             km/h
+                                                  </span>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                              <div
+                                        className="forecast">
+                                        <div
+                                                  className="forecast-header">
+                                                  <div
+                                                            className="day">
+                                                            Friday
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="forecast-content">
+                                                  <div
+                                                            className="forecast-icon">
+                                                            <img
+                                                                      alt=""
+                                                                      src="images/icons/01d.svg" />
+                                                  </div>
+                                                  <div
+                                                            className="degree">
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                             F
+                                                  </div>
+                                                  <small>
+                                                            50
+                                                            <sup>
+                                                                      o
+                                                            </sup>
+                                                  </small>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ForecastTable
+    city="New York"
+    weatherList={
+        Array [
+            Object {
+              "dt": 1492185600,
+              "humidity": 69,
+              "speed": 1.97,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+            Object {
+              "dt": 1492185600,
+              "temp": Object {
+                "max": 49.77,
+                "min": 49.77,
+              },
+              "weather": Array [
+                Object {
+                  "icon": "01d",
+                },
+              ],
+            },
+          ]
+    } />,
+}
+`;
