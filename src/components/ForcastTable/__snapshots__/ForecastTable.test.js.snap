@@ -1,3 +1,144 @@
+exports[`App test suite renders without crashing 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="App">
+    <div
+        className="site-content">
+        <Header />
+        <div
+            className="hero"
+            data-bg-image="images/banner.png">
+            <div
+                className="container">
+                <SearchBar
+                    onSearchSubmit={[Function]} />
+            </div>
+        </div>
+        <ForecastTable
+            city="New York"
+            weatherList={Array []} />
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="App">
+      <div
+            className="site-content">
+            <Header />
+            <div
+                  className="hero"
+                  data-bg-image="images/banner.png">
+                  <div
+                        className="container">
+                        <SearchBar
+                              onSearchSubmit={[Function]} />
+                  </div>
+            </div>
+            <ForecastTable
+                  city="New York"
+                  weatherList={Array []} />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <App />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": App {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "fetchWeathers": [Function],
+        "onSearchCityChange": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "searchCity": "New York",
+          "weatherList": Array [],
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="App">
+          <div
+                    className="site-content">
+                    <Header />
+                    <div
+                              className="hero"
+                              data-bg-image="images/banner.png">
+                              <div
+                                        className="container">
+                                        <SearchBar
+                                                  onSearchSubmit={[Function]} />
+                              </div>
+                    </div>
+                    <ForecastTable
+                              city="New York"
+                              weatherList={Array []} />
+          </div>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div
+          className="App">
+          <div
+                    className="site-content">
+                    <Header />
+                    <div
+                              className="hero"
+                              data-bg-image="images/banner.png">
+                              <div
+                                        className="container">
+                                        <SearchBar
+                                                  onSearchSubmit={[Function]} />
+                              </div>
+                    </div>
+                    <ForecastTable
+                              city="New York"
+                              weatherList={Array []} />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <App />,
+}
+`;
+
 exports[`ForecastTable test suite renders without crashing 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
@@ -431,7 +572,7 @@ ShallowWrapper {
                           ],
                         },
                         Object {
-                          "dt": 1492185600,
+                          "dt": 1492185700,
                           "temp": Object {
                             "max": 49.77,
                             "min": 49.77,
@@ -443,7 +584,7 @@ ShallowWrapper {
                           ],
                         },
                         Object {
-                          "dt": 1492185600,
+                          "dt": 1492185800,
                           "temp": Object {
                             "max": 49.77,
                             "min": 49.77,
@@ -455,7 +596,7 @@ ShallowWrapper {
                           ],
                         },
                         Object {
-                          "dt": 1492185600,
+                          "dt": 1492185900,
                           "temp": Object {
                             "max": 49.77,
                             "min": 49.77,
@@ -467,7 +608,7 @@ ShallowWrapper {
                           ],
                         },
                         Object {
-                          "dt": 1492185600,
+                          "dt": 1492186000,
                           "temp": Object {
                             "max": 49.77,
                             "min": 49.77,
@@ -504,7 +645,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492185700,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,
@@ -516,7 +657,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492185800,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,
@@ -528,7 +669,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492185900,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,
@@ -540,7 +681,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492186000,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,
@@ -1002,7 +1143,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492185700,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,
@@ -1014,7 +1155,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492185800,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,
@@ -1026,7 +1167,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492185900,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,
@@ -1038,7 +1179,7 @@ ShallowWrapper {
               ],
             },
             Object {
-              "dt": 1492185600,
+              "dt": 1492186000,
               "temp": Object {
                 "max": 49.77,
                 "min": 49.77,

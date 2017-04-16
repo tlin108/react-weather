@@ -5,7 +5,7 @@ import SearchBar from './index';
 describe('SearchBar test suite', () => {
   const value = 'Boston';
   const onButtonSubmit = jest.fn();
-  const wrapper = shallow(
+  let wrapper = shallow(
     <SearchBar onSearchSubmit={onButtonSubmit} />
   );
 
@@ -22,13 +22,13 @@ describe('SearchBar test suite', () => {
   });
 
   it('simulates submit event', () => {
-    const wrapperMount = mount(
+    wrapper = mount(
       <SearchBar onSearchSubmit={onButtonSubmit} />
     );
-    wrapperMount.find('input').simulate('change', {
+    wrapper.find('input').simulate('change', {
       target: { value }
     });
-    wrapperMount.find('[type="submit"]').get(0).click();
+    wrapper.find('[type="submit"]').get(0).click();
     expect(onButtonSubmit).toHaveBeenCalled();
   });
 });

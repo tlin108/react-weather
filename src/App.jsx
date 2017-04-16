@@ -14,6 +14,7 @@ class App extends Component {
       searchCity: 'New York'
     };
     this.onSearchCityChange = this.onSearchCityChange.bind(this);
+    this.fetchWeathers = this.fetchWeathers.bind(this);
   }
 
   componentDidMount() {
@@ -27,7 +28,8 @@ class App extends Component {
   }
 
   fetchWeathers() {
-    fetch(`http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=d22aa35f1d715ba35838639d67d4cff8`)
+    let URL = `http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=d22aa35f1d715ba35838639d67d4cff8`;
+    fetch(URL)
     .then(res => res.json())
     .then(data => {
       this.setState({ weatherList: data.list })
