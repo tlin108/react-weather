@@ -11,7 +11,8 @@ class App extends Component {
     
     this.state = {
       weatherList: [],
-      searchCity: 'New York'
+      searchCity: 'New York',
+      fetchError: false
     };
     this.onSearchCityChange = this.onSearchCityChange.bind(this);
     this.fetchWeathers = this.fetchWeathers.bind(this);
@@ -32,9 +33,14 @@ class App extends Component {
     fetch(URL)
     .then(res => res.json())
     .then(data => {
-      this.setState({ weatherList: data.list })
+      this.setState({ 
+        weatherList: data.list,
+        searchCity: data.city.name
+      })
     })
-    .catch(err => console.log(err));
+    .catch(() =>
+      this.setState({fetchError: true})
+    );
   }
 
   onSearchCityChange(searchCity) {
@@ -56,6 +62,7 @@ class App extends Component {
           <ForcastTable 
             weatherList={this.state.weatherList}
             city={this.state.searchCity}
+            error={this.state.fetchError}
           />
         </div>
       </div>

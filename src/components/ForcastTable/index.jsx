@@ -56,6 +56,9 @@ class ForecastTable extends Component {
   }
 
   render() {
+    if (this.props.error === true){
+      return <div>No Result. Please Check Input</div>
+    }
     return (
       <div className="forecast-table">
         <div className="container">
