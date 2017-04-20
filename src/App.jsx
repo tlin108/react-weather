@@ -5,8 +5,6 @@ import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import ForcastTable from './components/ForcastTable';
 
-import API_KEY from './Api';
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -31,7 +29,7 @@ class App extends Component {
   }
 
   fetchWeathers() {
-    let URL = `http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=${API_KEY}`;
+    let URL = `http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=d22aa35f1d715ba35838639d67d4cff8`;
     fetch(URL)
     .then(res => res.json())
     .then(data => {
