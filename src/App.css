@@ -241,10 +241,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
-  background: #1e202b;
-  position: absolute;
-  height: 110%;
-  width: 100%; }
+  background: #1e202b;}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -1224,38 +1221,3 @@ form textarea {
     font-size: 2.5714285714em;
     font-weight: 300;
     color: white; }
-/*
- * Footer Styles
- */
-.site-footer {
-  background: #262936;
-  padding: 50px 0; }
-  .site-footer .subscribe-form {
-    position: relative;
-    margin-bottom: 30px; }
-    .site-footer .subscribe-form input[type="text"] {
-      padding: 20px 100px 20px 20px;
-      background: #1e202b;
-      width: 100%;
-      color: white; }
-    .site-footer .subscribe-form input[type="submit"] {
-      position: absolute;
-      right: 5px;
-      top: 5px;
-      bottom: 5px; }
-  .site-footer .social-links a {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    border-radius: 50%;
-    background: #1e202b;
-    color: #009ad8;
-    text-align: center;
-    line-height: 2;
-    -webkit-transition: .3s ease;
-            transition: .3s ease;
-    font-size: 20px;
-    font-size: 1.4285714286em; }
-    .site-footer .social-links a:hover {
-      background: #009ad8;
-      color: white; }

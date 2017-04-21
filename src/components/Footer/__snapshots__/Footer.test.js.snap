@@ -1,0 +1,99 @@
+exports[`test renders without crashing 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <footer
+    className="site-footer">
+    <div
+        className="container">
+        <p
+            className="colophon">
+            Copyright 2017 SkyCastv2. Designed by Themezy. Developed by Tung Ling Lin. Powered by Open Weather Map API & React. Tested in Jest & Enzyme.
+        </p>
+    </div>
+</footer>,
+  "nodes": Array [
+    <footer
+      className="site-footer">
+      <div
+            className="container">
+            <p
+                  className="colophon">
+                  Copyright 2017 SkyCastv2. Designed by Themezy. Developed by Tung Ling Lin. Powered by Open Weather Map API & React. Tested in Jest & Enzyme.
+            </p>
+      </div>
+</footer>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Footer />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <footer
+          className="site-footer">
+          <div
+                    className="container">
+                    <p
+                              className="colophon">
+                              Copyright 2017 SkyCastv2. Designed by Themezy. Developed by Tung Ling Lin. Powered by Open Weather Map API & React. Tested in Jest & Enzyme.
+                    </p>
+          </div>
+</footer>,
+        "_debugID": 2,
+        "_renderedOutput": <footer
+          className="site-footer">
+          <div
+                    className="container">
+                    <p
+                              className="colophon">
+                              Copyright 2017 SkyCastv2. Designed by Themezy. Developed by Tung Ling Lin. Powered by Open Weather Map API & React. Tested in Jest & Enzyme.
+                    </p>
+          </div>
+</footer>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Footer />,
+}
+`;

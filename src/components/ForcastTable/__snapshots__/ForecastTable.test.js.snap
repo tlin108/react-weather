@@ -24,6 +24,7 @@ ShallowWrapper {
             city="New York"
             error={false}
             weatherList={Array []} />
+        <Footer />
     </div>
 </div>,
   "nodes": Array [
@@ -45,6 +46,7 @@ ShallowWrapper {
                   city="New York"
                   error={false}
                   weatherList={Array []} />
+            <Footer />
       </div>
 </div>,
   ],
@@ -106,6 +108,7 @@ ShallowWrapper {
                               city="New York"
                               error={false}
                               weatherList={Array []} />
+                    <Footer />
           </div>
 </div>,
         "_debugID": 4,
@@ -127,6 +130,7 @@ ShallowWrapper {
                               city="New York"
                               error={false}
                               weatherList={Array []} />
+                    <Footer />
           </div>
 </div>,
       },
