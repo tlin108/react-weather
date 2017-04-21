@@ -31,16 +31,22 @@ class App extends Component {
   fetchWeathers() {
     let URL = `http://api.openweathermap.org/data/2.5/forecast/daily?q=${this.state.searchCity}&units=imperial&cnt=5&appid=d22aa35f1d715ba35838639d67d4cff8`;
     fetch(URL)
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok)
+        throw Error(res.statusText);
+      else 
+        return res.json();
+    })
     .then(data => {
       this.setState({ 
+        fetchError: false,
         weatherList: data.list,
         searchCity: data.city.name
       })
     })
-    .catch(() =>
+    .catch((err) => {
       this.setState({fetchError: true})
-    );
+    });
   }
 
   onSearchCityChange(searchCity) {
