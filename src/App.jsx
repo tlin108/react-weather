@@ -59,15 +59,19 @@ class App extends Component {
       <div className="App">
         <div className="site-content">
           <Header />
+
           <div className="hero" data-bg-image="images/banner.png">
             <div className="container">
               <SearchBar onSearchSubmit={this.onSearchCityChange} />
             </div>
           </div>
+
           <ForcastTable 
             weatherList={this.state.weatherList}
             city={this.state.searchCity}
-            error={this.state.fetchError}/>
+            error={this.state.fetchError}
+          />
+
           <Footer />
         </div>
       </div>
